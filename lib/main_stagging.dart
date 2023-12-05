@@ -1,8 +1,8 @@
+import 'package:flutter_flavorizr_example/main_flavor.dart';
+
 import 'flavors.dart';
 
-import 'main.dart' as runner;
-
-Future<void> main() async {
-  F.appFlavor = Flavor.stagging;
-  await runner.main();
+void main() {
+  buildFlavor(Flavor.stagging);
+ 
 }
