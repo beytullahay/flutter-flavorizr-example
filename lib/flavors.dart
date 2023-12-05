@@ -2,7 +2,7 @@ enum Flavor {
   dev,
   prod,
   stagging,
-}
+} 
 
 class F {
   static Flavor? appFlavor;
